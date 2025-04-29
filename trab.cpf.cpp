@@ -38,7 +38,15 @@ int main(){
     CPF=CPF/10;
     //Usado para separar cada número.
     
-    Ax=A*10; Bx=B*9; Cx=C*8; Dx=D*7; Ex=E*6; Fx=F*5; Gx=G*4; Hx=H*3; Ix=I*2;
+    Ax=A*10; 
+    Bx=B*9; 
+    Cx=C*8; 
+    Dx=D*7; 
+    Ex=E*6; 
+    Fx=F*5; 
+    Gx=G*4; 
+    Hx=H*3; 
+    Ix=I*2;
     CV1=Ax+Bx+Cx+Dx+Ex+Fx+Gx+Hx+Ix;
     CV1=CV1%11;
 
@@ -49,7 +57,16 @@ int main(){
     }
     //Usado para determinar o PRIMEIRO digito do código verificador.
     
-    Ax=A*11; Bx=B*10; Cx=C*9; Dx=D*8; Ex=E*7; Fx=F*6; Gx=G*5; Hx=H*4; Ix=I*3; CVx=CV1*2;
+    Ax=A*11; 
+    Bx=B*10; 
+    Cx=C*9; 
+    Dx=D*8; 
+    Ex=E*7; 
+    Fx=F*6; 
+    Gx=G*5; 
+    Hx=H*4; 
+    Ix=I*3; 
+    CVx=CV1*2;
     CV2=Ax+Bx+Cx+Dx+Ex+Fx+Gx+Hx+Ix+CVx;
     CV2=CV2%11;
     if (CV2<2){
